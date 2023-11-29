@@ -10,9 +10,6 @@ from mesurement_metric import mesurement_metric
 from data_loader import RawDataLoader
 
 if __name__ == "__main__":
-    # X = np.array([[1, 2], [1, 4], [1, 0],
-    #             [10, 2], [10, 4], [10, 0]])
-    # y =  np.array([1,1,1,0,1,0])
     data_folder = 'data/test_data_04_20'
     raw_data_loader = RawDataLoader(data_folder)
     print(raw_data_loader.df)
