@@ -1,4 +1,7 @@
 .DS_Store
 **.csv
 **.pdf
+**.ks2
 strain_data/
+__pycache__/
+data/
